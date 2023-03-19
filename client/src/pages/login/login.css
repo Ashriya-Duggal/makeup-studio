@@ -1,0 +1,84 @@
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://images.pexels.com/photos/2253832/pexels-photo-2253832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.regis {
+  margin-top: 10%;
+}
+#login {
+  color: aliceblue;
+  margin: 0 40%;
+  justify-content: center;
+}
+.head {
+  /* margin: auto; */
+  padding: 8%;
+  font-family: "Playfair Display", serif;
+  font-size: 100px;
+  font-style: italic;
+}
+.login-data {
+  position: relative;
+  background: white;
+  box-shadow: 20px 20px rgba(127, 85, 73, 0.991);
+  transition: all 0.4s ease;
+  color: black;
+  padding: 10%;
+  margin-top: 50%;
+  margin-bottom: 20%;
+  border-radius: 18px;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.login-data:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+  box-shadow: 10px 10px rgba(243, 157, 157, 0.25);
+}
+.finalCall {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.eye {
+  position: relative;
+  margin-top: 8%;
+  margin-left: 90%;
+}
+.eye1 {
+  position: absolute;
+  top: 5%;
+  margin-top: 0%;
+}
+.btn1 {
+  margin: 2% 28%;
+  font-size: 2rem;
+  width: 50%;
+  border-radius: 26px;
+  background: #e0e0e0;
+  padding: 2%;
+}
+.btn1:hover {
+  background: #e0e0e0;
+  box-shadow: inset 15px 15px 29px #bebebe, inset -15px -15px 29px #ffffff;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 500px) {
+  .img {
+    object-fit: cover;
+  }
+  .login-data {
+    width: 20rem;
+  }
+  #login {
+    margin: 10%;
+  }
+}

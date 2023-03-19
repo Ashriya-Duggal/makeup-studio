@@ -1,0 +1,64 @@
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../images/pexels-photo-458766.webp");
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  width: 100%;
+  height: 80rem;
+}
+.name {
+  text-align: center;
+  color: white;
+}
+.name {
+  margin-top: 20%;
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+  font-style: italic;
+}
+.tagline{
+  color: #f0f0f0;
+  margin-left: 60%;
+  margin-top: 10p;
+  font-size: 30px;
+}
+.nav {
+  padding-top:1%;
+  width: 30%;
+  margin: auto;
+}
+.navbar-ul {
+  display: flex;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  color: white;
+  list-style: none;
+  margin: 0;
+  font-size: 30px;
+  font-family: "PT Serif", serif;
+}
+.nav-item:hover{
+  color: burlywood;
+}
+.nav-item{
+  margin: auto;
+  text-align: center;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 3rem;
+}
+@media screen and (max-width:500px) {
+  .nav-item{ 
+    padding: 15px;
+    margin: 0;
+  }
+  .nav{
+    margin: 0;
+  }
+
+}

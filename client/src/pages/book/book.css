@@ -1,0 +1,35 @@
+.head-cover5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.pexels.com/photos/985266/pexels-photo-985266.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card8 {
+  text-align: center;
+  margin-left: 40%;
+  padding-top: 10%;
+}
+.btn5 {
+  margin-top: 10%;
+  margin-left: 47.5%;
+}
+.card {
+  width: 30rem;
+}
+@media screen and (max-width: 450px) {
+  .card {
+    width: 12rem;
+    margin-top: 10%;
+    /* margin-left: 5%; */
+  }
+  .card8 {
+    margin-left:16%;
+  }
+  .btn5 {
+    margin-top: 20%;
+    margin-left: 15%;
+  }
+}

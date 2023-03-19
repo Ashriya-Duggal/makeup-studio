@@ -1,0 +1,66 @@
+#services {
+  background: linear-gradient(
+    var(--ang, 185deg),
+    #000 calc(50% - 0.5px),
+    #fff calc(50% + 0.5px)
+  );
+  text-align: center;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  margin-top: 23.8%;
+}
+.main-services {
+  display: flex;
+  justify-content: center;
+  margin: 0% 7%;
+  border: #f0f0f0 solid 5px;
+  border-radius: 18px;
+}
+.card-group{
+  margin: 0;
+}
+.img {
+  padding: 3%;
+  height: 510px;
+  object-fit: cover;
+}
+.grid {
+  background-color: aliceblue;
+  padding: 50px 0;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.head1 {
+  color: #f0f0f0;
+  padding: 1.3%;
+  font-family: "Playfair Display", serif;
+  font-size: 100px;
+  font-style: italic;
+}
+.text {
+  text-align: center;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-style: italic;
+}
+.login-req {
+  padding: 2%;
+}
+.p {
+  font-size: 17px;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-services {
+    flex-wrap: wrap;
+    margin: 2.5%;
+  }
+  .img {
+    object-fit: cover;
+  }
+}
